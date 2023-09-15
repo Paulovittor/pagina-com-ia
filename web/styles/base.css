@@ -1,0 +1,20 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+body { /* */
+  background-color: #121214;
+  color: white;
+  margin: 0; /*box de conteúdo*/
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  display: flex; /*box de conteudo toma toda a tela*/
+  flex-direction: column;
+  align-items: center; /*justifica para o centro na horizontal*/
+  justify-content: center; /*justifica o box de conteudo no centro da vertical*/ 
+
+}

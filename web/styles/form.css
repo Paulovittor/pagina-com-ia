@@ -1,0 +1,22 @@
+#form {
+  margin-top: 64px;
+  display: flex;
+  gap: 12px; /*distancia entre a caixa de input e o button*/
+}
+
+#form > input {
+  height: 48px; /*altura*/
+  width: 450px; /*largura*/
+  border: none; /*removendo bordas*/
+  background-color: #252524;
+  color: white; /*cor da url esperada*/
+  border-radius: 6px; /*arredondamento dos cantos da caixa*/
+  padding: 0 12px;
+  font-size: 14px;
+}
+
+/*manipulando o evento de foco da caixa de imput (ação de selecionar ao clicar com o mouse)*/
+
+#form > input:focus {
+  
+}
